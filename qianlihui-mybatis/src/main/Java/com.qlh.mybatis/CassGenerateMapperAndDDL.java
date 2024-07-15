@@ -1,5 +1,6 @@
-package com.qlh.base.mybatis;
+package com.qlh.mybatis;
 
+import com.qlh.base.Column;
 import com.qlh.base.QlhOperationSystem;
 import com.qlh.base.QlhIoUtils;
 import org.apache.commons.lang3.StringUtils;

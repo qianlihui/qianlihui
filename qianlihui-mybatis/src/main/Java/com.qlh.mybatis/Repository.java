@@ -1,4 +1,4 @@
-package com.qlh.base.mybatis;
+package com.qlh.mybatis;
 
 import com.qlh.base.QlhClass;
 import com.qlh.base.QlhException;

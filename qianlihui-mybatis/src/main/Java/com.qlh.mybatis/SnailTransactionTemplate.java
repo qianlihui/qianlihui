@@ -1,4 +1,4 @@
-package com.qlh.base.mybatis;
+package com.qlh.mybatis;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

@@ -2,7 +2,7 @@ package com.qlh.base;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.util.Strings;
+import org.apache.commons.lang3.StringUtils;
 
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
@@ -34,7 +34,7 @@ public class QlhMail {
         QlhException.runtime(() -> {
             msg.setFrom(new InternetAddress(config.from));
             InternetAddress[] addresses = content.to.stream()
-                    .filter(e -> Strings.isNotBlank(e))
+                    .filter(StringUtils::isNotBlank)
                     .map(e -> {
                         try {
                             return new InternetAddress(e);

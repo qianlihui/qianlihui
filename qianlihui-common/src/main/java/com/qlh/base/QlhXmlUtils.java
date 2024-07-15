@@ -1,7 +1,6 @@
 package com.qlh.base;
 
 
-import com.qlh.base.mybatis.Column;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

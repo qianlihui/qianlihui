@@ -15,7 +15,6 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Slf4j
 @Accessors(chain = true)
 @Data
 public class QlhWorkbook {

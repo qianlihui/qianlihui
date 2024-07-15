@@ -1,5 +1,6 @@
-package com.qlh.base.mybatis;
+package com.qlh.mybatis;
 
+import com.qlh.base.Column;
 import com.qlh.base.QlhClass;
 import com.qlh.base.QlhException;
 import com.qlh.base.QlhJsonUtils;
@@ -7,7 +8,7 @@ import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 
 @Data
-public class Extensible<T> extends DomainBase {
+public class Extensible<T>{
 
     private Class<T> extClass;
 

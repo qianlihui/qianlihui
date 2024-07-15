@@ -1,4 +1,4 @@
-package com.qlh.base.mybatis;
+package com.qlh.mybatis;
 
 import java.lang.annotation.*;
 
