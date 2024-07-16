@@ -8,6 +8,7 @@
   <modules>
     <module>qianlihui-common</module>
     <module>qianlihui-mybatis</module>
+    <module>qianlihui-server</module>
   </modules>
 
   <parent>
