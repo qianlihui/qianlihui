@@ -119,17 +119,6 @@ public class QlhXmlUtils {
         return o;
     }
 
-
-    public static void main(String args[]) {
-        C c = new C();
-        c.setCObject(new C());
-        c.setCObjects(Arrays.asList(new C(), new C()));
-        String xml = toXml("Root", c);
-        log.info(xml);
-        log.info(QlhJsonUtils.toFormattedJson(toObject(xml, C.class)));
-    }
-
-
     @Data
     static class C {
         private String a = "aValue";

@@ -5,7 +5,6 @@ import com.qlh.base.QlhJsonUtils;
 import com.qlh.base.QlhMap;
 import lombok.Data;
 import lombok.experimental.Accessors;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -46,11 +45,5 @@ public class QlhWorkbook {
             list.add(data);
         }
         return list;
-    }
-
-
-    public static void main(String args[]) throws FileNotFoundException {
-        QlhWorkbook workbook = QlhExcel.load(new FileInputStream("d:/调拨申请单导入模板.xlsx"));
-        System.out.println(QlhJsonUtils.toFormattedJson(workbook.loadData()));
     }
 }

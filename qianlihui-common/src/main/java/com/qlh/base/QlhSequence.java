@@ -123,11 +123,4 @@ public class QlhSequence {
         return integer.incrementAndGet();
     }
 
-    public static void main(String args[]) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println(getInstance().next("YQ"));
-            System.out.println(getInstance().next());
-        }
-    }
-
 }
