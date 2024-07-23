@@ -36,6 +36,10 @@
       </tbody>
     </table>
 
+  <form action="/user/register" method="post">
+    <input type="text" name="name" value=""/>
+    <input type="submit" value="Go back" />
+  </form>
   </body>
 
 </html>
