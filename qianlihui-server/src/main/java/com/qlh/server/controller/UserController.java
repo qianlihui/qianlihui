@@ -19,18 +19,17 @@ public class UserController {
     public String index() {
         System.out.println("login 123");
 
-        return "user/login";
+        return "user/login.html";
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public String register(User user) {
         System.out.println(user.toString());
-        return "user/login";
+        return "user/login.html";
     }
 
     @RequestMapping(value = "/toRegister", method = RequestMethod.GET)
-    public String toRegister(User user) {
-        System.out.println(user.toString());
+    public String toRegister() {
         return "user/register";
     }
 }
